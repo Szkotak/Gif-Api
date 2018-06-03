@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+</head>
+<body id="bg">
+    
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="text-center">Windows 95 Gif App</h1>
+        <h2 class="text-center" id="instructions">Press Button for Pics</h2>
+    </div>
+
+    <div class="row" id="buttonPanel"></div>
+
+        <div class="row">
+            <div class="col-lg-10" id="gifPanel"></div>
+        <div class="col-lg-2 formPanel">
+            <form id="subject-form">
+                <label for="subject-input" class="inputLabel">Add a category.</label>
+                <input type="text" id="subject-input"><br>
+                <input id="add-subject" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div id="footerSpacer"></div>
+        <div class="footer navbar-fixed-bottom" id="footerPanel"></div>
+    </div>
+</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+#bg {
+    background-color: pink;
+    background-repeat: repeat;
+}
+.jumbotron {
+  position: relative;
+  background-color: transparent;
+  padding: 0.6em 0.6em;
+  margin: 2.0em 0.0em 0em 0.0em;
+}
+.jumbotron h1 {
+	font-size: 4em;
+  color: #e5d1d9;
+}
+.jumbotron h2 {
+	font-size: 2em;
+  color: #d3f2de;
+}
+
+.subjectButton:hover {
+  background-color: #f2d3e7
+}
+
+.subjectButton:active {
+  background-color: #f2d3e7;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#gifPanel {
+  margin: 10px 0px 0px 0px;
+}
+
+.subjectGif:hover {
+  background-color: #bdd9c7;
+}
+
+.subjectGif h2 {
+  font-size: 15px;
+  color: #72a1d3;
+  text-align: center;
+  position: relative;
+  top: -3px;
+}
+
+.subjectGif img {
+  border-radius: 15px 50px;
+}
+
+.inputLabel {
+  font-size: 15px;
+  color: #72a1d3;
+  margin: 15px 0px;
+  margin-left: 32px;
+}
+
+#subject-input {
+  width: 137px;
+  margin-left: 15px;
+}
+
+#subject-input:focus {
+  background-color: #bdd9c7;
+}
+
+.formPanel {
+    position: relative;
+    top: 30px;
+    right: 35px;
+    border-radius: 15px 50px;
+    background-color: #00ff80;
+    height: 185px;
+  }
+
+#add-subject {
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: 5px 45px;
+}
+
+#footerSpacer {
+  background: transparent;
+  width: 100%;
+  height: 70px;
+}
+
+#footerPanel {
+  text-align: center;
+  color: #72a1d3;
+  background-color: #bdd9c7;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
